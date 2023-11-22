@@ -5,6 +5,8 @@ VisualStudioVersion = 17.7.34018.315
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project 19.Wpf", "Project 19.Wpf\Project 19.Wpf.csproj", "{78818A8C-408F-4EB4-A321-B4DDB0E8094B}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "PhonebookSetup", "PhonebookSetup\PhonebookSetup.vdproj", "{1277E49B-8341-4D9F-8816-0833CC1AEC9B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,8 @@ Global
 		{78818A8C-408F-4EB4-A321-B4DDB0E8094B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78818A8C-408F-4EB4-A321-B4DDB0E8094B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78818A8C-408F-4EB4-A321-B4DDB0E8094B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1277E49B-8341-4D9F-8816-0833CC1AEC9B}.Debug|Any CPU.ActiveCfg = Debug
+		{1277E49B-8341-4D9F-8816-0833CC1AEC9B}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

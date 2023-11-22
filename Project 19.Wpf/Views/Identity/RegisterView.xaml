@@ -1,0 +1,142 @@
+﻿<views:Frame x:Class="Project_19.Views.RegisterView"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:c="clr-namespace:System.Windows.Controls;assembly=Wpf"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:wd="clr-namespace:System.Windows.Data;assembly=Wpf"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:w="clr-namespace:System.Windows;assembly=Wpf"
+             xmlns:fa="http://schemas.fontawesome.com/icons/svg"
+             xmlns:views="clr-namespace:Project_19.Views"
+             mc:Ignorable="d">
+
+    <Page.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="../Resources/Styles.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Page.Resources>
+
+    <Page.InputBindings>
+        <KeyBinding Key="Enter" Command="{Binding SubmitCmd}" 
+                    CommandParameter="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type views:Frame}}, Path=UpdateCmd}"/>
+        <KeyBinding Key="Escape" Command="{Binding Owner.ContactsCmd}"/>
+    </Page.InputBindings>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <DockPanel x:Name="TitlePanel" Grid.Row="0">
+            <fa:ImageAwesome Style="{StaticResource BHeaderIconF}" Icon="Solid_UserGear"/>
+            <Label Style="{StaticResource BHeader}" Content="Create account"/>
+        </DockPanel>
+
+        <ScrollViewer x:Name="Form" Grid.Row="1" Style="{StaticResource BScrollViewer}">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition MaxWidth="600"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <StackPanel Grid.Column="0">
+                    <StackPanel.Resources>
+                        <w:BindingProxy x:Key="Proxy" Data="{Binding}"/>
+                    </StackPanel.Resources>
+
+                    <TextBlock Style="{StaticResource BTagDForm}"/>
+
+                    <Label Style="{StaticResource BTitle}" Content="Login"/>
+                    <TextBox MaxLength="25" Style="{StaticResource BBox}">
+                        <TextBox.Text>
+                            <Binding Path="Login" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
+                                <Binding.ValidationRules>
+                                    <views:RequiredValidator ValidatesOnTargetUpdated="True">
+                                        <views:RequiredValidator.Options>
+                                            <wd:DependencyBag IsEnabled="{Binding Source={StaticResource Proxy}, 
+                                                Mode=OneWay, Path=Data.ValidateLogin}" Title="Login" />
+                                        </views:RequiredValidator.Options>
+                                    </views:RequiredValidator>
+                                </Binding.ValidationRules>
+                            </Binding>
+                        </TextBox.Text>
+                    </TextBox>
+
+                    <Label Style="{StaticResource BTitle}" Content="Email"/>
+                    <TextBox MaxLength="25" Style="{StaticResource BBox}">
+                        <TextBox.Text>
+                            <Binding Path="Email" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
+                                <Binding.ValidationRules>
+                                    <views:RequiredValidator ValidatesOnTargetUpdated="True">
+                                        <views:RequiredValidator.Options>
+                                            <wd:DependencyBag IsEnabled="{Binding Source={StaticResource Proxy}, 
+                                                Mode=OneWay, Path=Data.ValidateEmail}" Title="Email" />
+                                        </views:RequiredValidator.Options>
+                                    </views:RequiredValidator>
+                                    <views:EmailValidator ValidatesOnTargetUpdated="True">
+                                        <views:EmailValidator.Options>
+                                            <wd:DependencyBag IsEnabled="{Binding Source={StaticResource Proxy}, 
+                                                Mode=OneWay, Path=Data.ValidateEmail}" Title="Email" />
+                                        </views:EmailValidator.Options>
+                                    </views:EmailValidator>
+                                </Binding.ValidationRules>
+                            </Binding>
+                        </TextBox.Text>
+                    </TextBox>
+
+                    <Label Style="{StaticResource BTitle}" Content="Password"/>
+                    <c:PassBox MaxLength="15" Style="{StaticResource BBoxP}">
+                        <c:PassBox.Password>
+                            <Binding Path="Password">
+                                <Binding.ValidationRules>
+                                    <views:RequiredValidator ValidatesOnTargetUpdated="True">
+                                        <views:RequiredValidator.Options>
+                                            <wd:DependencyBag IsEnabled="{Binding Source={StaticResource Proxy}, 
+                                                Mode=OneWay, Path=Data.ValidatePassword}" Title="Password" />
+                                        </views:RequiredValidator.Options>
+                                    </views:RequiredValidator>
+                                </Binding.ValidationRules>
+                            </Binding>
+                        </c:PassBox.Password>
+                    </c:PassBox>
+
+                    <Label Style="{StaticResource BTitle}" Content="ConfirmPassword"/>
+                    <c:PassBox MaxLength="15" Style="{StaticResource BBoxP}">
+                        <c:PassBox.Password>
+                            <Binding Path="ConfirmPassword" NotifyOnValidationError="False">
+                                <Binding.ValidationRules>
+                                    <views:RequiredValidator ValidatesOnTargetUpdated="True">
+                                        <views:RequiredValidator.Options>
+                                            <wd:DependencyBag IsEnabled="{Binding Source={StaticResource Proxy}, 
+                                                Mode=OneWay, Path=Data.ValidateConfirmPassword}" Title="ConfirmPassword" />
+                                        </views:RequiredValidator.Options>
+                                    </views:RequiredValidator>
+                                    <views:ComparedValidator ValidatesOnTargetUpdated="True">
+                                        <views:ComparedValidator.Options>
+                                            <wd:DependencyBag IsEnabled="{Binding Source={StaticResource Proxy}, 
+                                                Mode=OneWay, Path=Data.ValidateConfirmPassword}" Title="Password" 
+                                                              CompareWith="{Binding Source={StaticResource Proxy}, Path=Data.Password}"/>
+                                        </views:ComparedValidator.Options>
+                                    </views:ComparedValidator>
+                                </Binding.ValidationRules>
+                            </Binding>
+                        </c:PassBox.Password>
+                    </c:PassBox>
+
+                    <DockPanel Style="{StaticResource BPanelBtnPair}">
+                        <Button Content="Go!" Style="{StaticResource BBtnPrim}" 
+                                Command="{Binding SubmitCmd}" CommandParameter="{Binding RelativeSource={RelativeSource 
+                                FindAncestor, AncestorType={x:Type views:Frame}}, Path=UpdateCmd}"/>
+                        <Button Content="Sign in.." Style="{StaticResource BBtnSec}" 
+                                Command="{Binding Owner.SignInReturnCmd}"
+                                CommandParameter="{Binding ReturnCmd}"/>
+                    </DockPanel>
+                </StackPanel>
+            </Grid>
+        </ScrollViewer>
+    </Grid>
+
+</views:Frame>

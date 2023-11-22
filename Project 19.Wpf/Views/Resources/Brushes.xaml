@@ -1,0 +1,66 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!--Bg-->
+    <Brush x:Key="BBgLight">#F8F9FA</Brush>
+    <Brush x:Key="BBgDark">#212529</Brush>
+    <Brush x:Key="BBgPrimary">#0D6EFD</Brush>
+    <Brush x:Key="BBgPrimaryOver">#0B5ED7</Brush>
+    <Brush x:Key="BBgPrimaryPressed">#0A58CA</Brush>
+    <Brush x:Key="BBgSecondary">#6C757D</Brush>
+    <Brush x:Key="BBgSecondaryOver">#5C636A</Brush>
+    <Brush x:Key="BBgSecondaryPressed">#565E64</Brush>
+    <Brush x:Key="BBgDanger">#DC3545</Brush>
+    <Brush x:Key="BBgDangerOver">#BB2D3B</Brush>
+    <Brush x:Key="BBgDangerPressed">#B02A37</Brush>
+    <Brush x:Key="BBgDangerAero">#574EB1</Brush>
+    <Brush x:Key="BBgWhite">#FFFFFF</Brush>
+    <Brush x:Key="BBgSuccess">#198754</Brush>
+    <Brush x:Key="BBgSuccessOver">#157347</Brush>
+    <Brush x:Key="BBgSuccessPressed">#146c43</Brush>
+    <Brush x:Key="BBgWarning">#FFC107</Brush>
+    <Brush x:Key="BBgWarningOver">#FFCA2C</Brush>
+    <Brush x:Key="BBgWarningPressed">#FFCD39</Brush>
+
+    <!--Text-->
+    <Brush x:Key="BTextLight">#F8F9FA</Brush>
+    <Brush x:Key="BTextDark">#212529</Brush>
+    <Brush x:Key="BTextPrimary">#0D6EFD</Brush>
+    <Brush x:Key="BTextSecondary">#6C757D</Brush>
+    <Brush x:Key="BTextDanger">#DC3545</Brush>
+    <Brush x:Key="BTextWhite">#FFFFFF</Brush>
+    <Brush x:Key="BTextSuccess">#198754</Brush>
+    <Brush x:Key="BTextWarning">#FFC107</Brush>
+
+    <!--Tool-->
+    <Brush x:Key="BToolA">Red</Brush>
+    <Brush x:Key="BToolB">Yellow</Brush>
+    <Brush x:Key="BToolC">Green</Brush>
+
+    <!--Social-->
+    <Brush x:Key="BVk">#0177FF</Brush>
+    <Brush x:Key="BTelegram">#38A6DB</Brush>
+    <Brush x:Key="BInstagram">#E0016B</Brush>
+    <Brush x:Key="BWhatsApp">#59CE72</Brush>
+    <Brush x:Key="BGitHub">#333333</Brush>
+
+    <!--Border-->
+    <Brush x:Key="BGrayBorderA">#DEE2E6</Brush>
+    <Brush x:Key="BGrayBorderB">#F2F2F2</Brush>
+    <Brush x:Key="BBorderOver">#7eb4ea</Brush>
+    <Brush x:Key="BBorderFocus">#569de5</Brush>
+
+    <!--Default-->
+    <Brush x:Key="BTransparent">Transparent</Brush> 
+    <Brush x:Key="BBlack">#000000</Brush>
+    <Brush x:Key="BWhite">#FFFFFF</Brush>
+    <Brush x:Key="BGray">#A0A0A0</Brush>
+    <Brush x:Key="BGraySelection">#E0E0E6</Brush>
+    <Brush x:Key="BLightGray">#F0F0F0</Brush>
+    <Brush x:Key="BSemiLightGray">#CCCDCE</Brush>
+    <Brush x:Key="BRed">#E21122</Brush>
+    <Brush x:Key="BDarkRed">#8B0A14</Brush>
+    <Color x:Key="DisabledControlLightColor">#FFE8EDF9</Color>
+    <Color x:Key="DisabledControlDarkColor">#FFC5CBF9</Color>
+
+</ResourceDictionary>
+    

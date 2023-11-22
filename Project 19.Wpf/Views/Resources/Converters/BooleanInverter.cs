@@ -12,6 +12,7 @@ public class BooleanInverter : IValueConverter
 {
     #region IValueConverter
 
+    /// <inheritdoc/>
     public object Convert(object? value, Type targetType, object? parameter, CultureInfo culture)
     { 
         if (value == null) throw new ArgumentNullException(nameof(value));
@@ -22,7 +23,8 @@ public class BooleanInverter : IValueConverter
         return !(bool)value;
     }
 
-    public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture) 
+    /// <inheritdoc/>
+	public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture) 
         => Convert(value, targetType, parameter, culture);
 
     #endregion

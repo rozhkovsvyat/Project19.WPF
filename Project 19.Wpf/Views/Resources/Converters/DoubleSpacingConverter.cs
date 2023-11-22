@@ -16,6 +16,7 @@ public class DoubleSpacingConverter : IValueConverter
 
 	#region IValueConverter
 
+	/// <inheritdoc/>
 	public object Convert(object? value, Type targetType, object? parameter, CultureInfo culture)
 	{
 		if (value is not double d) throw new ArgumentNullException(nameof(value));
@@ -23,9 +24,9 @@ public class DoubleSpacingConverter : IValueConverter
 		return d < p ? p : p + (d - p) * Step;
 	}
 
+	/// <inheritdoc/>
 	public object ConvertBack(object? value, Type targetType, object? parameter, CultureInfo culture)
 		=> throw new NotSupportedException();
 
 	#endregion
-
 }

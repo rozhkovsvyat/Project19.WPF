@@ -12,11 +12,6 @@ public abstract class Frame : Page, IView
 {
 	#region IView
 
-	/// <summary>
-	/// Длительность анимации проявления
-	/// </summary>
-	protected virtual TimeSpan FadeSpan => TimeSpan.FromMilliseconds(150);
-
 	/// <inheritdoc/>
 	public void Display(Action? onComplete = null)
 	{
@@ -52,9 +47,17 @@ public abstract class Frame : Page, IView
 		else OnUnlock?.Invoke();
 
 	}
-	protected Action? OnUnlock;
 
 	#endregion
+
+	/// <summary>
+	/// Длительность анимации проявления
+	/// </summary>
+	protected virtual TimeSpan FadeSpan => TimeSpan.FromMilliseconds(150);
+	/// <summary>
+	/// Действие при разблокировке <see cref="IView"/>
+	/// </summary>
+	protected Action? OnUnlock;
 
 	/// <summary>
 	/// Событие обновления <see cref="Frame"/>

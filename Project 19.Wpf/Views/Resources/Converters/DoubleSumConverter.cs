@@ -16,6 +16,7 @@ public class DoubleSumConverter : IValueConverter
 
 	#region IValueConverter
 
+	/// <inheritdoc/>
 	public object Convert(object? value, Type targetType, object? parameter, CultureInfo culture)
 	{
 		if (value is not double d) throw new ArgumentNullException(nameof(value));
@@ -23,6 +24,7 @@ public class DoubleSumConverter : IValueConverter
 		return d + (Negate ? -1 * p : p);
 	}
 
+	/// <inheritdoc/>
 	public object ConvertBack(object? value, Type targetType, object? parameter, CultureInfo culture)
 		=> throw new NotSupportedException();
 

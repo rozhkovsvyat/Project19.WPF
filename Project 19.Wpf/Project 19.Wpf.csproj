@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>net7.0-windows10.0.19041.0</TargetFramework>
+    <TargetFramework>net7.0-windows</TargetFramework>
     <RootNamespace>Project_19</RootNamespace>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
@@ -10,7 +10,7 @@
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <SupportedOSPlatformVersion>7.0</SupportedOSPlatformVersion>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
-    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
     <AssemblyName>Phonebook</AssemblyName>
     <SignAssembly>False</SignAssembly>
     <AssemblyVersion>1.0.0</AssemblyVersion>
@@ -23,7 +23,8 @@
     <Title>$(PackageId)</Title>
     <PackageTags>rozhkovsvyat;phonebook;wpf</PackageTags>
     <PackageProjectUrl>https://t.me/svyatseverskiy</PackageProjectUrl>
-    <PackageIcon>WpfP.png</PackageIcon>
+    <RepositoryUrl>https://github.com/rozhkovsvyat/Project19.Wpf</RepositoryUrl>
+    <PackageIcon>Wpf.png</PackageIcon>
   </PropertyGroup>
 
   <ItemGroup>
@@ -34,7 +35,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="..\WpfP.png">
+    <None Include="..\Wpf.png">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>

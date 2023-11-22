@@ -15,11 +15,6 @@ public abstract class View : Window, IView
 {
 	#region IView
 
-	/// <summary>
-	/// Длительность анимации проявления
-	/// </summary>
-	protected virtual TimeSpan FadeSpan => TimeSpan.FromMilliseconds(150);
-
 	/// <inheritdoc/>
 	public void Display(Action? onComplete = null)
 	{
@@ -53,9 +48,17 @@ public abstract class View : Window, IView
 		else OnUnlock?.Invoke();
 		IsLocked = value;
 	}
-	protected Action? OnUnlock;
 
 	#endregion
+
+	/// <summary>
+	/// Длительность анимации проявления
+	/// </summary>
+	protected virtual TimeSpan FadeSpan => TimeSpan.FromMilliseconds(150);
+	/// <summary>
+	/// Действие при разблокировке <see cref="IView"/>
+	/// </summary>
+	protected Action? OnUnlock;
 
 	/// <inheritdoc cref="HwndResizer"/>
 	protected HwndResizer Resizer = null!;

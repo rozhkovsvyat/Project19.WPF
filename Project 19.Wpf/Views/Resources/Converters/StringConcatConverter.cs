@@ -21,13 +21,15 @@ public class StringConcatConverter : IValueConverter
 
 	#region IValueConverter
 
-    public object Convert(object? value, Type targetType, object? parameter, CultureInfo culture)
+	/// <inheritdoc/>
+	public object Convert(object? value, Type targetType, object? parameter, CultureInfo culture)
     {
 	    if (value is not string str) throw new ArgumentNullException(nameof(value));
 	    return string.Concat(Pre,str,Post);
     }
 
-    public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
+	/// <inheritdoc/>
+	public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
 		=> throw new NotSupportedException();
 
 	#endregion

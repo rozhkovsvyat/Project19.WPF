@@ -6,7 +6,21 @@ namespace Project_19;
 /// <summary>
 /// Содержит перечисление типов валидации
 /// </summary>
-public enum ValidationType { Required, Compared, Email }
+public enum ValidationType
+{
+	/// <summary>
+	/// Валидация обязательного значения
+	/// </summary>
+	Required,
+	/// <summary>
+	/// Валидация сопоставления
+	/// </summary>
+	Compared, 
+	/// <summary>
+	/// Валидация электронной почты
+	/// </summary>
+	Email
+}
 
 /// <summary>
 /// Содержит методы расширения <see cref="IValidator"/>

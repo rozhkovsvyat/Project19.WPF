@@ -10,5 +10,6 @@ public interface IVmFactory : IFactory<IVm> { }
 /// </summary>
 public class DefaultVmFactory : IVmFactory
 {
+	/// <inheritdoc/>
 	public IVm Get(string title) => new DefaultVm();
 }

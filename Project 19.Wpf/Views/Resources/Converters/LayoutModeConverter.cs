@@ -25,6 +25,7 @@ public class LayoutModeConverter : IValueConverter
 
 	#region IValueConverter
 
+	/// <inheritdoc/>
 	public object Convert(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture)
 	{
 		var width = System.Convert.ToDouble(value);
@@ -33,6 +34,7 @@ public class LayoutModeConverter : IValueConverter
 		return width > targetWidth ? 2 : 1;
 	}
 
+	/// <inheritdoc/>
 	public object ConvertBack(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture)
 		=> throw new NotImplementedException();
 

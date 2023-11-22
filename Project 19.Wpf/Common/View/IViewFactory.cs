@@ -10,5 +10,6 @@ public interface IViewFactory : IFactory<IView> { }
 /// </summary>
 public class DefaultViewFactory : IViewFactory
 {
+	/// <inheritdoc/>
 	public IView Get(string title) => new DefaultView();
 }

@@ -33,7 +33,6 @@
                         <Setter Property="HorizontalScrollBarVisibility" Value="Auto"/>
                     </DataTrigger>
                 </Style.Triggers>
-                <Setter Property="HorizontalScrollBarVisibility" Value="Disabled"/>
             </Style>
             <Style x:Key="StackPanel" TargetType="{x:Type StackPanel}">
                 <Style.Triggers>

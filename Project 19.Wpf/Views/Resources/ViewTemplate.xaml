@@ -51,11 +51,11 @@
                     <Style.Triggers>
                         <Trigger Property="IsMouseOver" Value="True">
                             <Setter Property="Background" Value="{StaticResource BBlack}"/>
-                            <Setter Property="Opacity" Value="0.125"/>
+                            <Setter Property="Opacity" Value="0.13"/>
                         </Trigger>
                         <Trigger Property="IsPressed" Value="True">
                             <Setter Property="Background" Value="{StaticResource BBlack}"/>
-                            <Setter Property="Opacity" Value="0.2"/>
+                            <Setter Property="Opacity" Value="0.22"/>
                         </Trigger>
                         <MultiTrigger>
                             <MultiTrigger.Conditions>
@@ -72,7 +72,7 @@
                             </MultiTrigger.Conditions>
                             <MultiTrigger.Setters>
                                 <Setter Property="Background" Value="{StaticResource BBlack}"/>
-                                <Setter Property="Opacity" Value="0.075"/>
+                                <Setter Property="Opacity" Value="0.09"/>
                             </MultiTrigger.Setters>
                         </MultiTrigger>
                     </Style.Triggers>
@@ -92,9 +92,11 @@
                     </Setter>
                 </Style>
                 <!--RPanelCrossButton-->
-                <Style x:Key="RPanelCrossButton" TargetType="Button">
+                <Style x:Key="RPanelCrossButton" TargetType="{x:Type Button}">
                     <Style.Triggers>
-                        <Trigger Property="IsMouseOver" Value="True"><Setter Property="Background" Value="{StaticResource BRed}"/></Trigger>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" Value="{StaticResource BRed}"/>
+                        </Trigger>
                         <Trigger Property="IsPressed" Value="True"><Setter Property="Background" Value="{StaticResource BDarkRed}"/></Trigger>
                         <MultiTrigger>
                             <MultiTrigger.Conditions>
@@ -110,7 +112,7 @@
                                 <Condition Property="IsMouseOver" Value="False"/>
                             </MultiTrigger.Conditions>
                             <MultiTrigger.Setters>
-                                <Setter Property="Background" Value="{StaticResource BBgDangerAero}"/>
+                                <Setter Property="Background" Value="{StaticResource BSemiDarkRed}"/>
                             </MultiTrigger.Setters>
                         </MultiTrigger>
                     </Style.Triggers>
@@ -133,11 +135,14 @@
                 <Style x:Key="RPanelIcon" TargetType="fa:ImageAwesome">
                     <Setter Property="IsHitTestVisible" Value="False"/>
                     <Setter Property="PrimaryColor" Value="{StaticResource BWhite}"/>
-                    <Setter Property="Height" Value="10"/>
-                    <Setter Property="Width" Value="10"/>
+                    <Setter Property="Margin" Value="0 0 0 -1"/>
+                    <Setter Property="Height" Value="9"/>
+                    <Setter Property="Width" Value="9"/>
                 </Style>
                 <!--RPanelMaximizeIcon-->
                 <Style x:Key="RPanelMaximizeIcon" BasedOn="{StaticResource RPanelIcon}" TargetType="fa:ImageAwesome">
+                    <Setter Property="Margin" Value="0 0 0 0"/>
+                    <Setter Property="SnapsToDevicePixels" Value="True"/>
                     <Setter Property="IsEnabled" Value="{Binding RelativeSource={RelativeSource FindAncestor, 
                         AncestorType={x:Type views:View}}, Path=Fullscreen, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}"/>
                     <Style.Triggers>
@@ -147,8 +152,9 @@
                 </Style>
                 <!--RPanelCrossIcon-->
                 <Style x:Key="RPanelCrossIcon" TargetType="{x:Type bi:BootstrapIcon}">
-                    <Setter Property="IsHitTestVisible" Value="False"/>
                     <Setter Property="Foreground" Value="{StaticResource BWhite}"/>
+                    <Setter Property="SnapsToDevicePixels" Value="True"/>
+                    <Setter Property="IsHitTestVisible" Value="False"/>
                     <Setter Property="Height" Value="11"/>
                     <Setter Property="Width" Value="11"/>
                     <Setter Property="Icon" Value="XLg"/>
@@ -510,6 +516,9 @@
                 </Style>
             </Grid.Resources>
             <DockPanel x:Name="SBar" Style="{StaticResource SBar}">
+                <Button x:Name="SBar_Web" Background="{StaticResource BBgWarning}" CommandParameter="https://efcore.ru" Style="{StaticResource SBarButton}">
+                    <fa:ImageAwesome Icon="Solid_EarthAsia" Style="{StaticResource SBarIcon}"/>
+                </Button>
                 <Button x:Name="SBar_VK" Background="{StaticResource BVk}" CommandParameter="https://vk.com/svyatrozhkov" Style="{StaticResource SBarButton}">
                     <fa:ImageAwesome Icon="Brands_Vk" Style="{StaticResource SBarIcon}"/>
                 </Button>
@@ -579,19 +588,19 @@
                     <Setter Property="Background" Value="{StaticResource BWhite}"/>
                     <Setter Property="Command" Value="{Binding LoadUrlCmd}"/>
                     <Setter Property="CommandParameter" Value="https://skillbox.ru/"/>
-                    <Setter Property="Margin" Value="1 5 0 0"/>
+                    <Setter Property="Margin" Value="1 4 0 0"/>
                     <Setter Property="HorizontalAlignment" Value="Stretch"/>
                     <Setter Property="FocusVisualStyle" Value="{x:Null}"/>
                     <Setter Property="VerticalAlignment" Value="Stretch"/>
                     <Setter Property="BorderThickness" Value="0"/>
                     <Setter Property="BorderBrush" Value="{x:Null}"/>
                     <Setter Property="Cursor" Value="Hand"/>
-                    <Setter Property="Height" Value="23.5"/>
+                    <Setter Property="Height" Value="23"/>
                     <Setter Property="Width" Value="52"/>
                     <Setter Property="Template">
                         <Setter.Value>
                             <ControlTemplate TargetType="Button">
-                                <Border x:Name="Halo" BorderThickness="3" CornerRadius="8" 
+                                <Border x:Name="Halo" BorderThickness="3" CornerRadius="7" 
                                         BorderBrush="{TemplateBinding BorderBrush}" Background="{Binding ElementName=Halo, Path=BorderBrush}">
                                     <Border CornerRadius="6" Background="{TemplateBinding Background}">
                                         <ContentPresenter/>

@@ -12,7 +12,6 @@
     <Brush x:Key="BBgDanger">#DC3545</Brush>
     <Brush x:Key="BBgDangerOver">#BB2D3B</Brush>
     <Brush x:Key="BBgDangerPressed">#B02A37</Brush>
-    <Brush x:Key="BBgDangerAero">#574EB1</Brush>
     <Brush x:Key="BBgWhite">#FFFFFF</Brush>
     <Brush x:Key="BBgSuccess">#198754</Brush>
     <Brush x:Key="BBgSuccessOver">#157347</Brush>
@@ -58,6 +57,7 @@
     <Brush x:Key="BLightGray">#F0F0F0</Brush>
     <Brush x:Key="BSemiLightGray">#CCCDCE</Brush>
     <Brush x:Key="BRed">#E21122</Brush>
+    <Brush x:Key="BSemiDarkRed">#C60E1D</Brush>
     <Brush x:Key="BDarkRed">#8B0A14</Brush>
     <Color x:Key="DisabledControlLightColor">#FFE8EDF9</Color>
     <Color x:Key="DisabledControlDarkColor">#FFC5CBF9</Color>

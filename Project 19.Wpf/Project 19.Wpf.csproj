@@ -10,9 +10,7 @@
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <SupportedOSPlatformVersion>7.0</SupportedOSPlatformVersion>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
-    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
     <AssemblyName>Phonebook</AssemblyName>
-    <SignAssembly>False</SignAssembly>
     <AssemblyVersion>1.0.0</AssemblyVersion>
     <FileVersion>$(AssemblyVersion)</FileVersion>
     <Version>$(AssemblyVersion)</Version>
@@ -21,10 +19,7 @@
     <Description>$(Product).Wpf</Description>
     <PackageId>$(Description)</PackageId>
     <Title>$(PackageId)</Title>
-    <PackageTags>rozhkovsvyat;phonebook;wpf</PackageTags>
-    <PackageProjectUrl>https://t.me/svyatseverskiy</PackageProjectUrl>
     <RepositoryUrl>https://github.com/rozhkovsvyat/Project19.Wpf</RepositoryUrl>
-    <PackageIcon>Wpf.png</PackageIcon>
   </PropertyGroup>
 
   <ItemGroup>
@@ -32,13 +27,6 @@
     <EmbeddedResource Remove="r\**" />
     <None Remove="r\**" />
     <Page Remove="r\**" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="..\Wpf.png">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-    </None>
   </ItemGroup>
 
   <ItemGroup>

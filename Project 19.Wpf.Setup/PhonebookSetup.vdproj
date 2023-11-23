@@ -27,7 +27,7 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_924588C26C4847608A66DBB407426FDC"
+        "MsmKey" = "8:_9F50E02FC41E41D7A2517F9D300BAFAE"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -62,6 +62,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
             }
         }
         "Release"
@@ -116,7 +124,7 @@
                 {
                 "Name" = "8:.NET Core"
                 "Message" = "8:[VSDNETCOREMSG]"
-                "FrameworkVersion" = "8:7.0.10"
+                "FrameworkVersion" = "8:7.0.10 "
                 "AllowLaterVersions" = "11:FALSE"
                 "InstallUrl" = "8:https://dotnet.microsoft.com/download/dotnet-core/[NetCoreVerMajorDotMinor]"
                 "IsNETCore" = "11:TRUE"
@@ -167,9 +175,9 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_924588C26C4847608A66DBB407426FDC"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_9F50E02FC41E41D7A2517F9D300BAFAE"
             {
-            "SourcePath" = "8:..\\Photoshop\\banner.bmp"
+            "SourcePath" = "8:banner.bmp"
             "TargetName" = "8:banner.bmp"
             "Tag" = "8:"
             "Folder" = "8:_1006058032ED40EA933847C6F031BB34"
@@ -244,7 +252,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Phonebook"
         "ProductCode" = "8:{50C0B092-5923-4EBE-A297-EDC057A10EE1}"
-        "PackageCode" = "8:{1C07A807-F611-40AA-99D1-807996DA93B0}"
+        "PackageCode" = "8:{AE7C3B59-9A6E-419A-8E46-FBB921EBAB00}"
         "UpgradeCode" = "8:{F4697293-8842-4C3C-8E60-C6562C48DBD2}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -406,7 +414,7 @@
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
                             "Setting" = "3:2"
-                            "Value" = "8:_924588C26C4847608A66DBB407426FDC"
+                            "Value" = "8:_9F50E02FC41E41D7A2517F9D300BAFAE"
                             "UsePlugInResources" = "11:TRUE"
                             }
                         }
@@ -438,7 +446,7 @@
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
                             "Setting" = "3:2"
-                            "Value" = "8:_924588C26C4847608A66DBB407426FDC"
+                            "Value" = "8:_9F50E02FC41E41D7A2517F9D300BAFAE"
                             "UsePlugInResources" = "11:TRUE"
                             }
                         }
@@ -461,7 +469,7 @@
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
                             "Setting" = "3:2"
-                            "Value" = "8:_924588C26C4847608A66DBB407426FDC"
+                            "Value" = "8:_9F50E02FC41E41D7A2517F9D300BAFAE"
                             "UsePlugInResources" = "11:TRUE"
                             }
                             "InstallAllUsersVisible"
@@ -497,7 +505,7 @@
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
                             "Setting" = "3:2"
-                            "Value" = "8:_924588C26C4847608A66DBB407426FDC"
+                            "Value" = "8:_9F50E02FC41E41D7A2517F9D300BAFAE"
                             "UsePlugInResources" = "11:TRUE"
                             }
                             "CopyrightWarning"
@@ -555,7 +563,7 @@
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
                             "Setting" = "3:2"
-                            "Value" = "8:_924588C26C4847608A66DBB407426FDC"
+                            "Value" = "8:_9F50E02FC41E41D7A2517F9D300BAFAE"
                             "UsePlugInResources" = "11:TRUE"
                             }
                             "ShowProgress"
@@ -612,7 +620,7 @@
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
                             "Setting" = "3:2"
-                            "Value" = "8:_924588C26C4847608A66DBB407426FDC"
+                            "Value" = "8:_9F50E02FC41E41D7A2517F9D300BAFAE"
                             "UsePlugInResources" = "11:TRUE"
                             }
                         }
@@ -635,7 +643,7 @@
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
                             "Setting" = "3:2"
-                            "Value" = "8:_924588C26C4847608A66DBB407426FDC"
+                            "Value" = "8:_9F50E02FC41E41D7A2517F9D300BAFAE"
                             "UsePlugInResources" = "11:TRUE"
                             }
                             "CopyrightWarning"
@@ -684,7 +692,7 @@
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
                             "Setting" = "3:2"
-                            "Value" = "8:_924588C26C4847608A66DBB407426FDC"
+                            "Value" = "8:_9F50E02FC41E41D7A2517F9D300BAFAE"
                             "UsePlugInResources" = "11:TRUE"
                             }
                         }
@@ -716,7 +724,7 @@
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
                             "Setting" = "3:2"
-                            "Value" = "8:_924588C26C4847608A66DBB407426FDC"
+                            "Value" = "8:_9F50E02FC41E41D7A2517F9D300BAFAE"
                             "UsePlugInResources" = "11:TRUE"
                             }
                             "UpdateText"
@@ -761,7 +769,7 @@
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
                             "Setting" = "3:2"
-                            "Value" = "8:_924588C26C4847608A66DBB407426FDC"
+                            "Value" = "8:_9F50E02FC41E41D7A2517F9D300BAFAE"
                             "UsePlugInResources" = "11:TRUE"
                             }
                             "ShowProgress"

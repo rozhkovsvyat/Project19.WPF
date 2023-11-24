@@ -1,1 +1,1 @@
-# Project 19 : Phonebook for Windows
+# Project 19 : Phonebook WPF Client

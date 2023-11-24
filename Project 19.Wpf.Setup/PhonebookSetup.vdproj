@@ -15,19 +15,13 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_3DD0C7D3D15C4802BDD2D7B6AFB83C58"
+        "MsmKey" = "8:_14F035AC9DE64556AEFD24A499130E6A"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_71C2CE042A0646ACBD6856A9A921179E"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_9F50E02FC41E41D7A2517F9D300BAFAE"
+        "MsmKey" = "8:_A8A66425CDFB4FFFA8B380F8EE6D52AB"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -124,7 +118,7 @@
                 {
                 "Name" = "8:.NET Core"
                 "Message" = "8:[VSDNETCOREMSG]"
-                "FrameworkVersion" = "8:7.0.10  "
+                "FrameworkVersion" = "8:7.0.10    "
                 "AllowLaterVersions" = "11:FALSE"
                 "InstallUrl" = "8:https://dotnet.microsoft.com/download/dotnet-core/[NetCoreVerMajorDotMinor]"
                 "IsNETCore" = "11:TRUE"
@@ -135,50 +129,30 @@
         }
         "File"
         {
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_3DD0C7D3D15C4802BDD2D7B6AFB83C58"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_14F035AC9DE64556AEFD24A499130E6A"
+            {
+            "SourcePath" = "8:..\\.psd\\banner.bmp"
+            "TargetName" = "8:banner.bmp"
+            "Tag" = "8:"
+            "Folder" = "8:_1006058032ED40EA933847C6F031BB34"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A8A66425CDFB4FFFA8B380F8EE6D52AB"
             {
             "SourcePath" = "8:..\\Project 19.Wpf\\bin\\Release\\net7.0-windows\\Phonebook.exe"
             "TargetName" = "8:Phonebook.exe"
-            "Tag" = "8:"
-            "Folder" = "8:_1006058032ED40EA933847C6F031BB34"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_71C2CE042A0646ACBD6856A9A921179E"
-            {
-            "SourcePath" = "8:..\\Project 19.Wpf\\Views\\Resources\\icon.ico"
-            "TargetName" = "8:icon.ico"
-            "Tag" = "8:"
-            "Folder" = "8:_1006058032ED40EA933847C6F031BB34"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_9F50E02FC41E41D7A2517F9D300BAFAE"
-            {
-            "SourcePath" = "8:banner.bmp"
-            "TargetName" = "8:banner.bmp"
             "Tag" = "8:"
             "Folder" = "8:_1006058032ED40EA933847C6F031BB34"
             "Condition" = "8:"
@@ -252,7 +226,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Phonebook"
         "ProductCode" = "8:{50C0B092-5923-4EBE-A297-EDC057A10EE1}"
-        "PackageCode" = "8:{E28AB7CA-CF34-4E1D-837D-A9AD603BCB95}"
+        "PackageCode" = "8:{7EAB76B8-904F-47DA-ABBE-C437B11222B7}"
         "UpgradeCode" = "8:{F4697293-8842-4C3C-8E60-C6562C48DBD2}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -269,8 +243,8 @@
         "Keywords" = "8:project19;rozhkovsvyat;phonebook;wpf;windows;netcore"
         "ARPCOMMENTS" = "8:Desktop client for Windows"
         "ARPURLINFOABOUT" = "8:https://t.me/svyatseverskiy"
-        "ARPPRODUCTICON" = "8:_71C2CE042A0646ACBD6856A9A921179E"
-        "ARPIconIndex" = "3:0"
+        "ARPPRODUCTICON" = "8:_A8A66425CDFB4FFFA8B380F8EE6D52AB"
+        "ARPIconIndex" = "3:32512"
         "SearchPath" = "8:"
         "UseSystemSearchPath" = "11:TRUE"
         "TargetPlatform" = "3:0"
@@ -372,18 +346,18 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_681C8505D028414584EF61CF8F21DF10"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_9A0921C77FEE486C84297EC903028C6E"
             {
             "Name" = "8:Phonebook"
             "Arguments" = "8:"
-            "Description" = "8:Desktop client for Windows"
+            "Description" = "8:"
             "ShowCmd" = "3:1"
-            "IconIndex" = "3:0"
+            "IconIndex" = "3:32512"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_3DD0C7D3D15C4802BDD2D7B6AFB83C58"
+            "Target" = "8:_A8A66425CDFB4FFFA8B380F8EE6D52AB"
             "Folder" = "8:_577060B0C55D42DA92EB9564655B541B"
             "WorkingFolder" = "8:_1006058032ED40EA933847C6F031BB34"
-            "Icon" = "8:_71C2CE042A0646ACBD6856A9A921179E"
+            "Icon" = "8:_A8A66425CDFB4FFFA8B380F8EE6D52AB"
             "Feature" = "8:"
             }
         }
@@ -414,7 +388,7 @@
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
                             "Setting" = "3:2"
-                            "Value" = "8:_9F50E02FC41E41D7A2517F9D300BAFAE"
+                            "Value" = "8:_14F035AC9DE64556AEFD24A499130E6A"
                             "UsePlugInResources" = "11:TRUE"
                             }
                         }
@@ -446,7 +420,7 @@
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
                             "Setting" = "3:2"
-                            "Value" = "8:_9F50E02FC41E41D7A2517F9D300BAFAE"
+                            "Value" = "8:_14F035AC9DE64556AEFD24A499130E6A"
                             "UsePlugInResources" = "11:TRUE"
                             }
                         }
@@ -469,7 +443,7 @@
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
                             "Setting" = "3:2"
-                            "Value" = "8:_9F50E02FC41E41D7A2517F9D300BAFAE"
+                            "Value" = "8:_14F035AC9DE64556AEFD24A499130E6A"
                             "UsePlugInResources" = "11:TRUE"
                             }
                             "InstallAllUsersVisible"
@@ -505,7 +479,7 @@
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
                             "Setting" = "3:2"
-                            "Value" = "8:_9F50E02FC41E41D7A2517F9D300BAFAE"
+                            "Value" = "8:_14F035AC9DE64556AEFD24A499130E6A"
                             "UsePlugInResources" = "11:TRUE"
                             }
                             "CopyrightWarning"
@@ -563,7 +537,7 @@
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
                             "Setting" = "3:2"
-                            "Value" = "8:_9F50E02FC41E41D7A2517F9D300BAFAE"
+                            "Value" = "8:_14F035AC9DE64556AEFD24A499130E6A"
                             "UsePlugInResources" = "11:TRUE"
                             }
                             "ShowProgress"
@@ -620,7 +594,7 @@
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
                             "Setting" = "3:2"
-                            "Value" = "8:_9F50E02FC41E41D7A2517F9D300BAFAE"
+                            "Value" = "8:_14F035AC9DE64556AEFD24A499130E6A"
                             "UsePlugInResources" = "11:TRUE"
                             }
                         }
@@ -643,7 +617,7 @@
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
                             "Setting" = "3:2"
-                            "Value" = "8:_9F50E02FC41E41D7A2517F9D300BAFAE"
+                            "Value" = "8:_14F035AC9DE64556AEFD24A499130E6A"
                             "UsePlugInResources" = "11:TRUE"
                             }
                             "CopyrightWarning"
@@ -692,7 +666,7 @@
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
                             "Setting" = "3:2"
-                            "Value" = "8:_9F50E02FC41E41D7A2517F9D300BAFAE"
+                            "Value" = "8:_14F035AC9DE64556AEFD24A499130E6A"
                             "UsePlugInResources" = "11:TRUE"
                             }
                         }
@@ -724,7 +698,7 @@
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
                             "Setting" = "3:2"
-                            "Value" = "8:_9F50E02FC41E41D7A2517F9D300BAFAE"
+                            "Value" = "8:_14F035AC9DE64556AEFD24A499130E6A"
                             "UsePlugInResources" = "11:TRUE"
                             }
                             "UpdateText"
@@ -769,7 +743,7 @@
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
                             "Setting" = "3:2"
-                            "Value" = "8:_9F50E02FC41E41D7A2517F9D300BAFAE"
+                            "Value" = "8:_14F035AC9DE64556AEFD24A499130E6A"
                             "UsePlugInResources" = "11:TRUE"
                             }
                             "ShowProgress"

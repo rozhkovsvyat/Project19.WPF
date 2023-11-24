@@ -6,7 +6,7 @@
     <RootNamespace>Project_19</RootNamespace>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
-    <ApplicationIcon>Views\Resources\icon.ico</ApplicationIcon>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <SupportedOSPlatformVersion>7.0</SupportedOSPlatformVersion>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
@@ -23,7 +23,7 @@
     <PackageProjectUrl>https://t.me/svyatseverskiy</PackageProjectUrl>
     <RepositoryUrl>https://github.com/rozhkovsvyat/Project19.Wpf</RepositoryUrl>
     <Copyright>© Rozhkov S. V., 2023</Copyright>
-    <PackageIcon>package.ico</PackageIcon>
+    <PackageIcon>package.png</PackageIcon>
   </PropertyGroup>
 
   <ItemGroup>
@@ -31,6 +31,17 @@
     <EmbeddedResource Remove="r\**" />
     <None Remove="r\**" />
     <Page Remove="r\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="icon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\.psd\package.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
   <ItemGroup>
@@ -49,8 +60,6 @@
 
   <ItemGroup>
     <Resource Include="Views\Resources\favicon.ico" />
-    <Resource Include="Views\Resources\icon.ico" />
-    <Resource Include="Views\Resources\package.ico" />
   </ItemGroup>
 
   <ItemGroup>

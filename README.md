@@ -1,1 +1,1 @@
-# Project 19 (wpf)
+# Project19 : Phonebook.Wpf

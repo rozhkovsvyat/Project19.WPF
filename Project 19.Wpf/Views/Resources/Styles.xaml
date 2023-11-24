@@ -1501,15 +1501,15 @@
         <Setter Property="RowBackground" Value="{StaticResource BGrayBorderB}"/>
         <Setter Property="RowStyle" Value="{StaticResource BTableRowInactive}"/>
         <Setter Property="BorderBrush" Value="{StaticResource BGrayBorderA}"/>
-        <Setter Property="Background" Value="{StaticResource BTransparent}"/>
+        <Setter Property="Background" Value="{StaticResource BLightGray}"/>
         <Setter Property="CellStyle" Value="{StaticResource BTableCell}"/>
         <Setter Property="RowHeight" Value="{StaticResource RowHeight}"/>
+        <Setter Property="BorderThickness" Value="1 1 0.4 0.4"/>
         <Setter Property="ScrollViewer.CanContentScroll" Value="False"/>
         <Setter Property="HorizontalAlignment" Value="Stretch"/>
         <Setter Property="FocusVisualStyle" Value="{x:Null}"/>
         <Setter Property="AutoGenerateColumns" Value="False"/>
         <Setter Property="HeadersVisibility" Value="Column"/>
-        <Setter Property="BorderThickness" Value="1 1 0 0"/>
         <Setter Property="GridLinesVisibility" Value="All"/>
         <Setter Property="VerticalAlignment" Value="Top"/>
         <Setter Property="CanUserAddRows" Value="False"/>

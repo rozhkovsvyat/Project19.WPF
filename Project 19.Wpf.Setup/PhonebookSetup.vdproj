@@ -124,7 +124,7 @@
                 {
                 "Name" = "8:.NET Core"
                 "Message" = "8:[VSDNETCOREMSG]"
-                "FrameworkVersion" = "8:7.0.10 "
+                "FrameworkVersion" = "8:7.0.10  "
                 "AllowLaterVersions" = "11:FALSE"
                 "InstallUrl" = "8:https://dotnet.microsoft.com/download/dotnet-core/[NetCoreVerMajorDotMinor]"
                 "IsNETCore" = "11:TRUE"
@@ -252,7 +252,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Phonebook"
         "ProductCode" = "8:{50C0B092-5923-4EBE-A297-EDC057A10EE1}"
-        "PackageCode" = "8:{AE7C3B59-9A6E-419A-8E46-FBB921EBAB00}"
+        "PackageCode" = "8:{E28AB7CA-CF34-4E1D-837D-A9AD603BCB95}"
         "UpgradeCode" = "8:{F4697293-8842-4C3C-8E60-C6562C48DBD2}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"

@@ -50,6 +50,7 @@
   <ItemGroup>
     <Resource Include="Views\Resources\favicon.ico" />
     <Resource Include="Views\Resources\icon.ico" />
+    <Resource Include="Views\Resources\package.ico" />
   </ItemGroup>
 
   <ItemGroup>
@@ -128,13 +129,6 @@
     <Compile Update="Views\Identity\SignInView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Update="Views\Resources\package.ico">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-    </None>
   </ItemGroup>
 
 </Project>

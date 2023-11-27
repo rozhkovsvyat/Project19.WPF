@@ -8,11 +8,11 @@
 
 Wpf-клиент проекта Phonebook на базе [API](https://github.com/rozhkovsvyat/Project19.API/)
 
-Аналог [Web-клиента](https://github.com/rozhkovsvyat/Project19.Web/), собранный на архитектуре MVVM с внедрением зависимостей
+Аналог [Web-клиента](https://github.com/rozhkovsvyat/Project19.Web/), собранный на архитектуре MVVM
 
 > :link: [Использует общие библиотеки](https://github.com/rozhkovsvyat/Project19.Libs)
 > 
-> :link: [Использует Ninject](https://www.nuget.org/packages/Ninject/)
+> :link: [Использует Ninject DI](https://www.nuget.org/packages/Ninject/)
 
 Предоставляет разграниченный доступ к телефонной книге:
 * **Администратор** -- полный доступ к книге, администрирование пользователей

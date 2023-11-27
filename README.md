@@ -12,13 +12,11 @@ WPF-клиент телефонной книги на базе [API](https://git
 
 > :link: [Использует общие библиотеки](https://github.com/rozhkovsvyat/Project19.Libs)
 >
-> :link: [Использует иконки Bootstrap](https://www.nuget.org/packages/BootstrapIcons.Wpf) [+1](https://www.nuget.org/packages/FontAwesome6.Svg)
+> :link: [Использует иконки Bootstrap](https://www.nuget.org/packages/BootstrapIcons.Wpf)[/FontAwesome](https://www.nuget.org/packages/FontAwesome6.Svg)
+>
+> :link: [Использует Tools.RecipeFactory ](https://github.com/rozhkovsvyat/Tools.RecipeFactory)[и Tools.WPF](https://github.com/rozhkovsvyat/Tools.WPF)
 > 
 > :link: [Использует Ninject DI](https://www.nuget.org/packages/Ninject)
->
-> :link: [**Tools.RecipeFactory**](https://github.com/rozhkovsvyat/Tools.RecipeFactory)
-> 
-> :link: [**Tools.WPF**](https://github.com/rozhkovsvyat/Tools.WPF)
 
 ---
 
@@ -28,17 +26,6 @@ WPF-клиент телефонной книги на базе [API](https://git
 * **Validators** -- фабрика валидаторов ввода данных / [Tools.RecipeFactory](https://github.com/rozhkovsvyat/Tools.RecipeFactory) + [Ninject](https://www.nuget.org/packages/Ninject)
 * **Vms** -- фабрика моделей представлений / [Tools.RecipeFactory](https://github.com/rozhkovsvyat/Tools.RecipeFactory) + [Ninject](https://www.nuget.org/packages/Ninject)
 * **Views** -- фабрика представлений / [Tools.RecipeFactory](https://github.com/rozhkovsvyat/Tools.RecipeFactory) + [Ninject](https://www.nuget.org/packages/Ninject)
-
----
-
-### LAYOUT
-
-* **Control** -- панель заголовка и управления окном
-* **Header** -- шапка с выпадающим навигационным меню и кнопкой возврата домой
-> :bulb: Фрейм отображает страницы приложения
-* **Body** -- текущий фрейм
-* **Social, Footer** -- панель социальных сетей с кнопкой открытия [Web-клиента](https://github.com/rozhkovsvyat/Project19.Web/tree/master)
-* **Resizing** -- область масштабирования окна
 
 ---
 

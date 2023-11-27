@@ -4,3 +4,19 @@
 <img align="right" width="100" height="100" src="https://github.com/rozhkovsvyat/Project19.WPF/assets/71471748/f40f2155-4c9a-4f8c-9754-4e10d46bd57c">
 
 **#wpf #net7.0.10**
+
+
+Wpf-клиент проекта Phonebook на базе [API](https://github.com/rozhkovsvyat/Project19.API/)
+
+Визуальный и функциональный аналог [Web-клиента](https://github.com/rozhkovsvyat/Project19.Web/), собранный на архитектуре MVVM c внедрением зависимостей
+
+> :link: [Использует общие библиотеки](https://github.com/rozhkovsvyat/Project19.Libs)
+>
+> :link: [Использует фабрику рецептов](https://github.com/rozhkovsvyat/Tools.RecipeFactory)
+> 
+> :link: [Использует Ninject](https://www.nuget.org/packages/Ninject/)
+
+Предоставляет разграниченный доступ к телефонной книге:
+* **Администратор** -- полный доступ к книге, администрирование пользователей
+* **Пользователь** -- детальный просмотр записей, добавление новых записей, смена пароля
+* **Анонимус** -- только просмотр записей

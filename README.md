@@ -12,7 +12,7 @@ WPF-клиент телефонной книги на базе [API](https://git
 
 > :link: [Использует общие библиотеки](https://github.com/rozhkovsvyat/Project19.Libs)
 >
-> :link: [Использует иконки Bootstrap](https://www.nuget.org/packages/BootstrapIcons.Wpf)[/FontAwesome](https://www.nuget.org/packages/FontAwesome6.Svg)
+> :link: [Использует иконки Bootstrap](https://www.nuget.org/packages/BootstrapIcons.Wpf)
 > 
 > :link: [Использует Ninject DI](https://www.nuget.org/packages/Ninject)
 
@@ -28,9 +28,10 @@ WPF-клиент телефонной книги на базе [API](https://git
 
 ### MVVM
 
-* Управляет содержимым фрейма, устанавливает вложенный контекст данных
-* Содержит информацию о текущем пользователе, доступную вложенному контексту
-* Управляет токеном, реализует переход на страницу авторизации
+* **LayoutVm** -- главный контекст данных, использует **ViewFactory** для привязки к мастер-окну, управляет содержимым используя **VmFactory**, хранит информацию о текущем пользователе и управляет [токеном](https://www.nuget.org/packages/Microsoft.AspNetCore.Authentication.JwtBearer) 
+* **LayoutView** -- мастер-окно, для вывода содержимого использует фрейм с привязкой к контексту данных
+* **Vm** -- контекст содержимого, использует **ViewFactory** для привязки к соответствующей странице, хранит ссылку на главный контекст и имеет доступ к токену
+* **Frame** -- страница
 
 ---
 

@@ -6,11 +6,11 @@
 **#net7.0.10-windows**
 
 
-Wpf-клиент проекта Phonebook на базе [API](https://github.com/rozhkovsvyat/Project19.API/) + установщик
+WPF-клиент на базе [API](https://github.com/rozhkovsvyat/Project19.API/) и установщик
 
-Аналог [Web-клиента](https://github.com/rozhkovsvyat/Project19.Web/), собранный на архитектуре MVVM
+Аналог [Web](https://github.com/rozhkovsvyat/Project19.Web/), собранный на архитектуре MVVM
 
-> :link: [Использует общие библиотеки](https://github.com/rozhkovsvyat/Project19.Libs) ([+ фабрика](https://github.com/rozhkovsvyat/Tools.RecipeFactory) [+ инструменты](https://github.com/rozhkovsvyat/Tools.WPF))
+> :link: [Использует общие библиотеки](https://github.com/rozhkovsvyat/Project19.Libs) [+1](https://github.com/rozhkovsvyat/Tools.RecipeFactory) [+2](https://github.com/rozhkovsvyat/Tools.WPF)
 > 
 > :link: [Использует Ninject DI](https://www.nuget.org/packages/Ninject/)
 

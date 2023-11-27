@@ -15,6 +15,10 @@ WPF-клиент на базе [API](https://github.com/rozhkovsvyat/Project19.A
 > :link: [Использует иконки Bootstrap](https://www.nuget.org/packages/BootstrapIcons.Wpf) [+1](https://www.nuget.org/packages/FontAwesome6.Svg)
 > 
 > :link: [Использует Ninject DI](https://www.nuget.org/packages/Ninject)
+>
+> :link: [**Tools.RecipeFactory**](https://github.com/rozhkovsvyat/Tools.RecipeFactory)
+> 
+> :link: [**Tools.WPF**](https://github.com/rozhkovsvyat/Tools.WPF)
 
 ---
 

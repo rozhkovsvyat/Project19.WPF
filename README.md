@@ -10,7 +10,7 @@ WPF-клиент на базе [API](https://github.com/rozhkovsvyat/Project19.A
 
 Аналог [Web](https://github.com/rozhkovsvyat/Project19.Web), собранный на архитектуре MVVM
 
-> :link: [Использует общие библиотеки](https://github.com/rozhkovsvyat/Project19.Libs) [+1](https://github.com/rozhkovsvyat/Tools.RecipeFactory) [+2](https://github.com/rozhkovsvyat/Tools.WPF)
+> :link: [Использует общие библиотеки](https://github.com/rozhkovsvyat/Project19.Libs)
 >
 > :link: [Использует иконки Bootstrap](https://www.nuget.org/packages/BootstrapIcons.Wpf) [+1](https://www.nuget.org/packages/FontAwesome6.Svg)
 > 

@@ -27,8 +27,8 @@ WPF-клиент на базе [API](https://github.com/rozhkovsvyat/Project19.A
 
 * **PhonebookApi** -- сервисы поставщика контактов и идентификации / [Api.ApiContacts](https://www.nuget.org/packages/RozhkovSvyat.Project19.Services.Api.ApiContacts) + [Api.ApiIdentity](https://www.nuget.org/packages/RozhkovSvyat.Project19.Services.Api.ApiIdentity)
 > :bulb: Фабрики возвращают объекты с внедренными зависимостями
-* **Vms** -- фабрика моделей представлений и модель главного представления / [Tools.RecipeFactory](https://github.com/rozhkovsvyat/Tools.RecipeFactory) + [Ninject](https://www.nuget.org/packages/Ninject)
 * **Views** -- фабрика представлений / [Tools.RecipeFactory](https://github.com/rozhkovsvyat/Tools.RecipeFactory) + [Ninject](https://www.nuget.org/packages/Ninject)
+* **Vms** -- фабрика моделей представлений / [Tools.RecipeFactory](https://github.com/rozhkovsvyat/Tools.RecipeFactory) + [Ninject](https://www.nuget.org/packages/Ninject)
 * **Validators** -- фабрика валидаторов ввода данных / [Tools.RecipeFactory](https://github.com/rozhkovsvyat/Tools.RecipeFactory) + [Ninject](https://www.nuget.org/packages/Ninject)
 
 ---

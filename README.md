@@ -6,9 +6,9 @@
 **#net7.0.10-windows**
 
 
-WPF-клиент на базе [API](https://github.com/rozhkovsvyat/Project19.API)
+WPF-клиент телефонной книги на базе [API](https://github.com/rozhkovsvyat/Project19.API)
 
-Аналог [Web](https://github.com/rozhkovsvyat/Project19.Web), собранный на архитектуре MVVM
+Аналог [Web-клиента](https://github.com/rozhkovsvyat/Project19.Web), собранный на архитектуре MVVM
 
 > :link: [Использует общие библиотеки](https://github.com/rozhkovsvyat/Project19.Libs)
 >

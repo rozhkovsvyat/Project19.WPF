@@ -42,3 +42,9 @@ WPF-клиент на базе [API](https://github.com/rozhkovsvyat/Project19.A
 * **Body** -- фрейм текущей страницы
 * **Social, Footer** -- панель социальных сетей с кнопкой открытия [Web-клиента](https://github.com/rozhkovsvyat/Project19.Web/tree/master)
 * **Resizing** -- область масштабирования окна
+
+---
+
+:bomb: **404** notfound
+:bomb: **500** exception
+:bomb: **OOPS** apinotavailable

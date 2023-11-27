@@ -10,7 +10,7 @@ Wpf-клиент проекта Phonebook на базе [API](https://github.com
 
 Аналог [Web-клиента](https://github.com/rozhkovsvyat/Project19.Web/), собранный на архитектуре MVVM
 
-> :link: [Использует общие библиотеки](https://github.com/rozhkovsvyat/Project19.Libs), [фабрику](https://github.com/rozhkovsvyat/Tools.RecipeFactory) и [инструменты](https://github.com/rozhkovsvyat/Tools.WPF)
+> :link: [Использует общие библиотеки](https://github.com/rozhkovsvyat/Project19.Libs) ([+ фабрика](https://github.com/rozhkovsvyat/Tools.RecipeFactory) [+ инструменты](https://github.com/rozhkovsvyat/Tools.WPF))
 > 
 > :link: [Использует Ninject DI](https://www.nuget.org/packages/Ninject/)
 

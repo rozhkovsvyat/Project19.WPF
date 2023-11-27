@@ -6,7 +6,7 @@
 **#net7.0.10-windows**
 
 
-Wpf-клиент проекта Phonebook на базе [API](https://github.com/rozhkovsvyat/Project19.API/)
+Wpf-клиент проекта Phonebook на базе [API](https://github.com/rozhkovsvyat/Project19.API/) с установщиком
 
 Аналог [Web-клиента](https://github.com/rozhkovsvyat/Project19.Web/), собранный на архитектуре MVVM
 

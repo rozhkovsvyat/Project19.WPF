@@ -6,13 +6,13 @@
 **#net7.0.10-windows**
 
 
-WPF-клиент на базе [API](https://github.com/rozhkovsvyat/Project19.API/) и установщик
+WPF-клиент на базе [API](https://github.com/rozhkovsvyat/Project19.API)
 
-Аналог [Web](https://github.com/rozhkovsvyat/Project19.Web/), собранный на архитектуре MVVM
+Аналог [Web](https://github.com/rozhkovsvyat/Project19.Web), собранный на архитектуре MVVM
 
 > :link: [Использует общие библиотеки](https://github.com/rozhkovsvyat/Project19.Libs) [+1](https://github.com/rozhkovsvyat/Tools.RecipeFactory) [+2](https://github.com/rozhkovsvyat/Tools.WPF)
 > 
-> :link: [Использует Ninject DI](https://www.nuget.org/packages/Ninject/)
+> :link: [Использует Ninject DI](https://www.nuget.org/packages/Ninject)
 
 Предоставляет разграниченный доступ к телефонной книге:
 * **Администратор** -- полный доступ к книге, администрирование пользователей

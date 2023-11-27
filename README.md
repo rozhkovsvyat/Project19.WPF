@@ -20,13 +20,13 @@ WPF-клиент телефонной книги на базе [API](https://git
 
 ### FACTORIES
 
-* **Validators** -- фабрика валидаторов ввода данных / [Tools.RecipeFactory](https://github.com/rozhkovsvyat/Tools.RecipeFactory) + [Ninject](https://www.nuget.org/packages/Ninject)
-* **Vms** -- фабрика моделей представлений / [Tools.RecipeFactory](https://github.com/rozhkovsvyat/Tools.RecipeFactory) + [Ninject](https://www.nuget.org/packages/Ninject)
-* **Views** -- фабрика представлений / [Tools.RecipeFactory](https://github.com/rozhkovsvyat/Tools.RecipeFactory) + [Ninject](https://www.nuget.org/packages/Ninject)
+* **ValidatorFactory** -- валидаторы ввода данных форм / [Tools.RecipeFactory](https://github.com/rozhkovsvyat/Tools.RecipeFactory) + [Ninject](https://www.nuget.org/packages/Ninject)
+* **VmFactory** -- модели представлений / [Tools.RecipeFactory](https://github.com/rozhkovsvyat/Tools.RecipeFactory) + [Ninject](https://www.nuget.org/packages/Ninject)
+* **ViewFactory** -- представления / [Tools.RecipeFactory](https://github.com/rozhkovsvyat/Tools.RecipeFactory) + [Ninject](https://www.nuget.org/packages/Ninject)
 
 ---
 
-### LAYOUTVM
+### MVVM
 
 * Управляет содержимым фрейма, устанавливает вложенный контекст данных
 * Содержит информацию о текущем пользователе, доступную вложенному контексту

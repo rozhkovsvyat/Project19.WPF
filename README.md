@@ -10,6 +10,8 @@ Wpf-клиент проекта Phonebook на базе [API](https://github.com
 
 Аналог [Web-клиента](https://github.com/rozhkovsvyat/Project19.Web/), собранный на архитектуре MVVM
 
+> :link: [Использует фабрику рецептов](https://github.com/rozhkovsvyat/Tools.RecipeFactory) + [инструменты wpf](https://github.com/rozhkovsvyat/Tools.WPF)
+> 
 > :link: [Использует общие библиотеки](https://github.com/rozhkovsvyat/Project19.Libs)
 > 
 > :link: [Использует Ninject DI](https://www.nuget.org/packages/Ninject/)
@@ -25,6 +27,6 @@ Wpf-клиент проекта Phonebook на базе [API](https://github.com
 
 * **PhonebookApi** -- сервисы поставщика контактов и идентификации / [Api.ApiContacts](https://www.nuget.org/packages/RozhkovSvyat.Project19.Services.Api.ApiContacts) + [Api.ApiIdentity](https://www.nuget.org/packages/RozhkovSvyat.Project19.Services.Api.ApiIdentity)
 > :bulb: Фабрики возвращают объекты с внедренными зависимостями
-* **Vms** -- модель главного представления, фабрика моделей представлений / [Tools.RecipeFactory](https://github.com/rozhkovsvyat/Tools.RecipeFactory) + [Ninject](https://www.nuget.org/packages/Ninject/)
+* **Vms** -- фабрика моделей представлений и модель главного представления / [Tools.RecipeFactory](https://github.com/rozhkovsvyat/Tools.RecipeFactory) + [Ninject](https://www.nuget.org/packages/Ninject/)
 * **Views** -- фабрика представлений / [Tools.RecipeFactory](https://github.com/rozhkovsvyat/Tools.RecipeFactory) + [Ninject](https://www.nuget.org/packages/Ninject/)
 * **Validators** -- фабрика валидаторов ввода данных / [Tools.RecipeFactory](https://github.com/rozhkovsvyat/Tools.RecipeFactory) + [Ninject](https://www.nuget.org/packages/Ninject/)

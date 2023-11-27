@@ -10,9 +10,9 @@ WPF-клиент на базе [API](https://github.com/rozhkovsvyat/Project19.A
 
 Аналог [Web](https://github.com/rozhkovsvyat/Project19.Web), собранный на архитектуре MVVM
 
+> :link: Использует иконки [Bootstrap](https://www.nuget.org/packages/BootstrapIcons.Wpf) и [FontAwesome](https://www.nuget.org/packages/FontAwesome6.Svg)
+> 
 > :link: [Использует общие библиотеки](https://github.com/rozhkovsvyat/Project19.Libs) [+1](https://github.com/rozhkovsvyat/Tools.RecipeFactory) [+2](https://github.com/rozhkovsvyat/Tools.WPF)
->
-> :link: [Использует иконки Bootstrap](https://www.nuget.org/packages/BootstrapIcons.Wpf) [+FontAwesome](https://www.nuget.org/packages/FontAwesome6.Svg)
 > 
 > :link: [Использует Ninject DI](https://www.nuget.org/packages/Ninject)
 
@@ -35,6 +35,8 @@ WPF-клиент на базе [API](https://github.com/rozhkovsvyat/Project19.A
 
 ### LAYOUT
 
+
+> 
 * **Control** -- панель заголовка и управления окном
 * **Header** -- шапка с выпадающим навигационным меню и кнопкой возврата домой
 * **Body** -- фрейм текущей страницы

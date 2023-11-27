@@ -8,7 +8,7 @@
 
 Wpf-клиент проекта Phonebook на базе [API](https://github.com/rozhkovsvyat/Project19.API/)
 
-Аналог [Web-клиента](https://github.com/rozhkovsvyat/Project19.Web/) на языке XAML, собранный на архитектуре MVVM с внедрением зависимостей
+Аналог [Web-клиента](https://github.com/rozhkovsvyat/Project19.Web/), собранный на архитектуре MVVM с внедрением зависимостей
 
 > :link: [Использует общие библиотеки](https://github.com/rozhkovsvyat/Project19.Libs)
 > 

@@ -58,7 +58,7 @@ public class LayoutVm : Vm
 	private readonly IVmFactory _vmFactory;
 
 	/// <inheritdoc cref="Vm.Token"/>
-	/// <remarks>Предоставляет возможнось устанавливать значение <see cref="Vm.Token"/> внутри класса <see cref="LayoutVm"/></remarks>
+	/// <remarks>Предоставляет возможность устанавливать значение <see cref="Vm.Token"/> внутри класса <see cref="LayoutVm"/></remarks>
 	private string? LayoutToken
 	{
 		get => _layoutToken;
@@ -83,7 +83,7 @@ public class LayoutVm : Vm
 	}
 	private string? _layoutToken;
 	/// <inheritdoc cref="Vm.User"/>
-	/// <remarks>Предоставляет возможнось устанавливать значение <see cref="Vm.User"/> внутри класса <see cref="LayoutVm"/></remarks>
+	/// <remarks>Предоставляет возможность устанавливать значение <see cref="Vm.User"/> внутри класса <see cref="LayoutVm"/></remarks>
 	public ClaimsPrincipal LayoutUser
 	{
 		get => _layoutUser;

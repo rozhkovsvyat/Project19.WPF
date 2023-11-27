@@ -13,8 +13,6 @@ WPF-клиент телефонной книги на базе [API](https://git
 > :link: [Использует общие библиотеки](https://github.com/rozhkovsvyat/Project19.Libs)
 >
 > :link: [Использует иконки Bootstrap](https://www.nuget.org/packages/BootstrapIcons.Wpf)[/FontAwesome](https://www.nuget.org/packages/FontAwesome6.Svg)
->
-> :link: [Использует Tools.RecipeFactory ](https://github.com/rozhkovsvyat/Tools.RecipeFactory)[и Tools.WPF](https://github.com/rozhkovsvyat/Tools.WPF)
 > 
 > :link: [Использует Ninject DI](https://www.nuget.org/packages/Ninject)
 

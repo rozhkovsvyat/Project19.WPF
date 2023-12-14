@@ -6,7 +6,7 @@
 **#net7.0.10-windows**
 
 
-WPF-клиент телефонной книги на базе [API](https://github.com/rozhkovsvyat/Project19.API) ([скачать](https://hub.efcore.ru/PhonebookSetup.zip))
+WPF-клиент телефонной книги на базе [API](https://github.com/rozhkovsvyat/Project19.API)
 
 Аналог [Web-клиента](https://github.com/rozhkovsvyat/Project19.Web), собранный на архитектуре MVVM
 
@@ -15,6 +15,8 @@ WPF-клиент телефонной книги на базе [API](https://git
 > :link: [Использует иконки Bootstrap](https://www.nuget.org/packages/BootstrapIcons.Wpf)
 > 
 > :link: [Использует Ninject DI](https://www.nuget.org/packages/Ninject)
+> 
+> 💻 [Можно установить](https://hub.efcore.ru/PhonebookSetup.zip)
 
 ---
 

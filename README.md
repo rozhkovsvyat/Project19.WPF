@@ -41,6 +41,6 @@ WPF-клиент телефонной книги на базе [API](https://git
 
 ---
 
-:bomb: **404** notfound
-:bomb: **500** exception
-:bomb: **OOPS** apinotavailable
+💣 **404** notfound
+💣 **500** exception
+💣 **OOPS** apinotavailable
